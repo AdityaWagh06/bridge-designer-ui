@@ -98,15 +98,9 @@ This project demonstrates:
 - Understanding of basic structural calculations
 - Software development capabilities relevant to Osdag
 
-## License
-
-MIT License - Free for educational and personal use.
-
 ## Author
 
-Developed for FOSSEE Osdag Winter Internship 2025 screening task.
+Developed by Aditya Wagh for FOSSEE Osdag Winter Internship 2025 screening task.
 
 ---
 
-**Contact**: [Your Email/GitHub]  
-**Repository**: [GitHub Link]
