@@ -1,34 +1,76 @@
 Bridge Designer – Desktop UI
 
-A simple desktop application built with Python Tkinter to calculate basic bridge parameters and display a structural schematic. Created for the FOSSEE Osdag Winter Internship 2025 (Bridge Module UI – Desktop).
+A simple desktop application built using Python Tkinter to calculate basic bridge parameters and display a structural schematic. Developed as part of the FOSSEE Osdag Winter Internship 2025 screening task under the Bridge Module UI – Desktop category.
 
 Features
-Clean and modern Tkinter interface
-Input fields for span, width, girders, and live load
-Calculates deck self-weight, uniform load, moment, shear, and per-girder values
-Displays a simple bridge schematic
-Saves input data to JSON
+
+Modern and clean Tkinter-based user interface
+
+Input fields for span, width, number of girders, and live load
+
+Automatic calculation of:
+
+Deck self-weight
+
+Uniform load
+
+Bending moment
+
+Shear force
+
+Per-girder moment and shear
+
+Simple structural schematic visualization
+
+Save input parameters as JSON
+
 Input validation with clear error messages
 
 Installation
-Install Python 3.8+
-Tkinter is included by default (check using python -m tkinter)
+Requirements
 
-Run the application:
+Python 3.8 or higher
+
+Tkinter (included with Python by default)
+
+To verify Tkinter installation:
+
+python -m tkinter
+
+Run the application
 python bridge_ui.py
 
 How It Works
-The app uses simplified formulas for demonstration:
-Self-weight = density × thickness × area
-Uniform load = (self-weight / span) + live load
-Moment = wL² / 8
-Shear = wL / 2
-Per-girder values = moment/shear ÷ number of girders
 
+The application performs simplified structural calculations using the following formulas:
 
-Files
-bridge_ui.py     # Application source code
-README.md        # Project documentation
+Deck self-weight:
+density × thickness × area
+
+Uniform load:
+(self-weight / span) + live load
+
+Bending moment:
+wL² / 8
+
+Shear force:
+wL / 2
+
+Per-girder values:
+total moment or shear ÷ number of girders
+
+These formulas are for demonstration purposes only and are not intended for real engineering design.
+
+File Structure
+bridge_ui.py     # Main application code
+README.md        # Documentation file
 
 Purpose
-This project demonstrates a clean UI, basic structural calculations, and desktop interface development skills relevant to the Osdag project.
+
+This project showcases:
+
+Ability to design a clean and user-friendly desktop UI
+
+Understanding of basic bridge engineering calculations
+
+Skills relevant to UI and software development tasks within the Osdag project
